@@ -5,7 +5,7 @@
 
     <context-param>
         <param-name>contextConfigLocation</param-name>
-        <param-value>com.rmpader.projects.gae.spring.greeter.Application</param-value>
+        <param-value>com.rmpader.gae.spring.playground.Application</param-value>
     </context-param>
 
     <listener>

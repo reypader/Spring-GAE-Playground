@@ -12,8 +12,8 @@
 	<!-- The default module should be listed first -->
 	<module>
 		<web>
-			<web-uri>spring-user-greeter.war</web-uri>
-			<context-root>spring-user-greeter</context-root>
+			<web-uri>playground-ui.war</web-uri>
+			<context-root>playground-ui</context-root>
 		</web>
 	</module>
 	<library-directory>lib</library-directory>

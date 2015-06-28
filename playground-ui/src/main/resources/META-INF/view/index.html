@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:include="templates/main :: headerFragment ('otherHeaders')">
+<object th:fragment="otherHeaders"> </object>
+</head>
+<body>
+    <nav th:replace="templates/main :: navFragment"></nav>
+    <div style="padding-top: 50px;" class="container-fluid"></div>
+    <div th:include="templates/main :: scriptFragment ('otherScripts')" th:remove="tag">
+        <object th:fragment="otherScripts"> </object>
+    </div>
+</body>
+</html>
