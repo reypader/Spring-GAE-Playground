@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_5.xsd" version="5">
+  <description>Playground for doing stuff withh GAE and Spring Boot along with the multi-module capabilities of Maven, GAE, and Git</description>
+  <display-name>spring-boot-playground-ear</display-name>
+  <module>
+    <web>
+      <web-uri>spring-user-greeter.war</web-uri>
+      <context-root>/spring-user-greeter</context-root>
+    </web>
+  </module>
+  <library-directory>lib</library-directory>
+</application>
